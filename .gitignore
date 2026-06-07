@@ -67,3 +67,22 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# ==========================================
+# VS & Game Server Custom Rules (추가)
+# ==========================================
+
+# 비주얼 스튜디오 임시 작업 폴더 및 개인 설정
+.vs/
+*.user
+*.suo
+
+# 내 솔루션에서 생성되는 빌드/출력 폴더들
+Binary/
+x64/
+
+# 누겟 패키지 폴더
+packages/
+
+# 대용량 메모리 덤프 파일
+*.dmp
